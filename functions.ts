@@ -12,3 +12,7 @@ export const format = (title: string, param: number | string): string =>
 
 export const format2 = (title: string, param: number | string): string =>
   (title + " " + param).toString();
+
+export const printFormat = (title: string, param: number | string) =>
+  console.log((title + " " + param).toString());
+
